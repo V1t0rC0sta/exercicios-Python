@@ -1,0 +1,7 @@
+a = int(input("Olá, digite um número qualquer para que sejam feitas algumas análieses:"))
+d = (a*2)
+t = (a*3)
+r = (a**(1/2))
+print(f'O dobro do valor informado é {d}.')
+print(f'O seu triplo equivale a {t}.')
+print(f'E sua raiz quadrada é {r:2f}.')

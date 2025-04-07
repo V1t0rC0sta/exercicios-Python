@@ -1,0 +1,7 @@
+a = input('Digite algo:')
+print('O tipo primitivo do objeto informado é', type(a))
+print('O objeto é um número?', a.isnumeric())
+print('O objeto é uma palavra?', a.isalpha())
+print('O objeto é maiusculo?', a.isupper())
+print('O objeto é minúsculo?', a.islower())
+print('O objeto é um espaço em branco?', a.isspace())

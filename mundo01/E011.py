@@ -1,0 +1,6 @@
+print('Vamos calcular a área de uma parede, para descobrir quantos litros de tinta nessesitará.')
+a = float(input('Qual a altura da parede em metros?'))
+b = float(input('Qual a largura da parede em metros?'))
+print(f'A área calculáda é de {a * b:.2f} metros quadrados.')
+print('Cada litro de tinta pinta 2 metros quadrados de parede.')
+print(f'Logo, serão utilizados {(a * b) / 2:.2f} litros de tinta.')
